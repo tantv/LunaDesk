@@ -4,55 +4,31 @@
 
 ### What is LunaDesk?
 
-LunaDesk is a web app created by Josh Cawthorne for the Supabase Hackathon.
+LunaDesk helps teams work better in a hybrid working environment.
 
-The concept of the app is for companies to be able to sign-up, and enable employees to share which days they're working in the office, and which days they're working from home, to allow better planning on when teams should be in the office.
+The core concept of the app is for employees to share which days they're working in the office, and which days they're working from home. We can't stop your co-workers eating your secret desk biscuits when you're not in the office, but we do make it easier to allow for better time management and to make for a more cohesive working environment.
 
 ### LET ME AT IT!
-You're eager! A link to a live version is available here: https://lunadesk-freeze.netlify.app/, though perhaps you'd like to finish reading this readme first? Or don't, I'm not your boss.
 
-### How did you build LunaDesk?
+You're eager! A link to the original version submitted for the Supabase Hackathon is available here: https://lunadesk-freeze.netlify.app/, though perhaps you'd like to finish reading this readme first? Or don't, I'm a readme not your boss.
 
-This project was created using **NextJS** with **Supabase Auth, Storage and Database**. It also utilises libraries including (but not limited to) Framer Motion, easy-peasy, styled-components and recharts.
+Alternatively, a link to the site which you can use to register for Early Access to our Closed Beta is availble here: https://lunadesk.co
 
-### How does LunaDesk use Supabase?
+### How is LunaDesk built?
 
-As stated above, this project uses quite a few features of Supabase. It uses Auth to allow users to both sign-up and login using either an email address, Google account or Apple account. It uses Supabase's databases to store all data, and uses storage to store avatars for companies.
+LunaDesk, originally named WorkFrom, was built by Josh Cawthorne as an entry for the Supabase Hackathon. This project was created using **NextJS** with **Supabase Auth, Storage and Database**. It also utilised libraries including (but not limited to) Framer Motion, easy-peasy, styled-components and recharts.
 
-### How can I run LunaDesk on my local machine
+WorkFrom went on to win "Best Overall Project" at the Supabase hackathon.
 
-To run the project, all you need to do is download the project to your local machine, followed by running `npm i` to install the required packages, and then `npm run-script dev` to boot it up. **Please note:** an `.env.local` file is required in the following structure to run locally:
+The LunaDesk team are currently hard at work on building a fully fleshed out Version One release, ready for launch later 2021.
 
-```
-PUBLIC_SUPABASE_URL=[your_url]
-PUBLIC_SUPABASE_ANON_KEY=[your_key]
-BASE_DOMAIN=http://localhost:3000/
-```
+### How can I run LunaDesk on my local machine?
 
-For your convencience, you can use this handy Netlify site to view the project live instead. Nifty, huh?
-https://lunadesk-freeze.netlify.app/
+You can't. Sorry. We have private keys that're needed to connect the code to relevant services. You're more than welcome to explore our codebase to see how it's built, though.
 
-Alternatively, feel free to reach out to me via email (joshcawthorne97@gmail.com), and I'd be happy to provide you with the required keys to hook it up to the existing database, plus my banking details should you have any large sums of money from a recently deceased distant relative I've never heard of.
+For your convenience, you can use the following site to view the project live instead. Nifty, huh?
+https://lunadesk.co
 
-### It isn't finished?!
+### I want to contribute!
 
-No 😔  
-
-Like all great visionaries, I bit off more than I could chew. I do plan to keep working on it though...
-
-### Who was LunaDesk created by?
-
-- Designed by: Josh Cawthorne
-- Branded by: Josh Cawthorne
-- Developed by: Josh Cawthorne
-- Readme by: Josh Cawthorne
-- Credits writen by: Josh Cawthorne
-
-We're a good team. Very in sync.
-
-Github: https://github.com/joshcawthorne/
-Twitter: https://twitter.com/cawthornejosh
-
-
-
-
+Awesome! We're on the lookout for people to contribute to the project. If you're interested, drop us a line via contact@lunadesk.co
